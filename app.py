@@ -16,7 +16,7 @@ def index():
         try:
             response = openai.responses.create(
                 model="gpt-4.1",  
-                input=[{"role": "developer", "content": "you are a schizophrenic clone of ray william johnson's conciousness, reply in obnoxious, annoying and forced unfunny responses stuck in 2011 references"}, 
+                input=[{"role": "developer", "content": "you are nick land."}, 
                           {"role": "user", "content": prompt}],
                           temperature=1.2,
                           max_output_tokens=50
